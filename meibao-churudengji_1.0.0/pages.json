@@ -1,0 +1,135 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "社区出入管理"
+			}
+		}
+	    ,{
+            "path" : "pages/uchat/uchat",
+            "style" : {
+				"navigationBarTitleText":"数据图表"
+			}
+        }
+        ,{
+            "path" : "pages/search/search",
+            "style" : {
+				"navigationBarTitleText":"成员筛选"
+			}
+        }
+        ,{
+            "path" : "pages/ucenter/ucenter",
+            "style" : {
+				"navigationStyle":"custom",
+				"navigationBarTitleText":"个人中心"
+			}
+        }
+        ,{
+            "path" : "pages/add/add",
+            "style" : {
+				"navigationBarTitleText":"资料填写"
+			}
+        }
+        ,{
+            "path" : "pages/index/qrcode",
+            "style" : {
+				"navigationBarTitleText":"社区成员登记"
+			}
+        }
+        ,{
+            "path" : "pages/member_detail/member_detail",
+            "style" : {
+				"navigationBarTitleText":"人员详情"
+			}
+        }
+        ,{
+            "path" : "pages/pass/pass",
+            "style" : {
+				"navigationBarTitleText":"出入通行证"
+			}
+        }
+        ,{
+            "path" : "pages/public/public",
+            "style" : {
+				"navigationBarTitleText":"访客首页"
+			}
+        }
+        ,{
+            "path" : "pages/public/shequ_list",
+            "style" : {
+				"navigationBarTitleText":"已开通社区列表"
+			}
+        }
+        ,{
+            "path" : "pages/public/apply",
+            "style" : {
+				"navigationBarTitleText":"社区申请表"
+			}
+        }
+        ,{
+            "path" : "pages/index/shequ_list/shequ_list",
+            "style" : {
+				"navigationBarTitleText":"管理的社区"
+			}
+        }
+        ,{
+            "path" : "pages/member_detail/info",
+            "style" : {
+				"navigationBarTitleText":"人员信息"
+			}
+        }
+        ,{
+            "path" : "pages/member_detail/list",
+            "style" : {
+				"navigationBarTitleText":"子成员"
+			}
+        }
+        ,{
+            "path" : "pages/ucenter/about_us",
+            "style" : {
+				"navigationBarTitleText":"关于我们"
+			}
+        }
+        ,{
+            "path" : "pages/bind/bind",
+            "style" : {
+				"navigationBarTitleText":"成员绑定"
+			}
+        }
+    ],
+	"tabBar":{
+		"color":"#8a8a8a",
+		"selectedColor":"#66ccff",
+		"list":[
+			{
+				"pagePath":"pages/index/index",
+				"selectedIconPath":"static/tabBar/indexS.png",
+				"iconPath":"static/tabBar/index.png",
+				"text":"首页"
+			},{
+				"pagePath":"pages/search/search",
+				"selectedIconPath":"static/tabBar/searchS.png",
+				"iconPath":"static/tabBar/search.png",
+				"text":"筛选"
+			},
+			// {
+			// 	"pagePath":"pages/uchat/uchat",
+			// 	"selectedIconPath":"static/tabBar/tubiaoS.png",
+			// 	"iconPath":"static/tabBar/tubiao.png",
+			// 	"text":"图表"
+			// },
+			{
+				"pagePath":"pages/ucenter/ucenter",
+				"selectedIconPath":"static/tabBar/ucenterS.png",
+				"iconPath":"static/tabBar/ucenter.png",
+				"text":"我的"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "出入管理",
+		"navigationBarBackgroundColor": "#66ccff"
+	}
+}
